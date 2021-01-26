@@ -261,7 +261,7 @@ public class Client extends AbstractClientServer
 			this.threadComunicationClient.unregisterClient(new StringTokenizer(""));
 		} catch (InterruptedException e)
 		{
-			getLogger().severe("Erreur de desenregistrement du client au serveur, message : " + e.getMessage());
+			getLogger().severe("errorr try again, message : " + e.getMessage());
 		}
 	}
 
